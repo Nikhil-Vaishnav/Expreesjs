@@ -52,3 +52,4 @@ app.get("*", (req, res) =>{
 app.post("/", (req, res) =>{
     res.send("you sent a post request");
 });/**this a post method */
+// -----------------------------------------------------------------------------------
