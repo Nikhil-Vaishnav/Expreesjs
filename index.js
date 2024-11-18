@@ -45,6 +45,10 @@ app.get("/search", (req, res) =>{
     res.send("you contacted search path");
 });
 
+app.get("/newPage", (req, res) =>{
+    res.send("you contacted newPage path");
+});
+
 app.get("*", (req, res) =>{
     res.send("This page does not available");
 });/**this will print when ther is search is out for all requests */
@@ -53,3 +57,4 @@ app.post("/", (req, res) =>{
     res.send("you sent a post request");
 });/**this a post method */
 // -----------------------------------------------------------------------------------
+ 
