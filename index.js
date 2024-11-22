@@ -100,5 +100,4 @@ app.listen(port, () => {/**listen make the webserver for the incomming api*/
             res.send(htmlStr);
             });           
             // ----------------------------  
-            // ----------------------------  
             
