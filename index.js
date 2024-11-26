@@ -109,7 +109,7 @@
 
 //             // http://localhost:8080/search?q="Nikhil"
 //             // http://localhost:8080/search?q=Nikhil&Vaishnav
-
+//--------------------------------------------------------------------------------
 // to extract the query 
 
 // app.get("/search",(req,res)=>{
