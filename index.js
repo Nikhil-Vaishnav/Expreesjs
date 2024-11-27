@@ -102,6 +102,7 @@
             // // ---------------------------- 
             
 // //  query string
+
             // app.get("/search",(req,res)=>{
             //     console.log(req.query);/**this is qurey storing perameter */
             //     res.send("no result");
